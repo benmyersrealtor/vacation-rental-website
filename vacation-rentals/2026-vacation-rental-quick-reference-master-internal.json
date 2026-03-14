@@ -413,12 +413,17 @@
       "bedrooms": 3,
       "bathrooms": 3,
       "king": 0,
-      "queen": 0,
-      "full": 0,
-      "twin": 0,
+      "queen": 2,
+      "full": 1,
+      "twin": 3,
       "sleeper": 0,
-      "bed_summary": {},
-      "total_listed_sleeping_surfaces": 0
+      "bed_summary": {
+        "queen": 2,
+        "full": 1,
+        "twin": 3
+      },
+      "total_listed_sleeping_surfaces": 6,
+      "beds": "2Q - 1F - 3T"
     },
     {
       "name": "Station Vacation Rentals",

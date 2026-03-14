@@ -305,10 +305,11 @@ Method: Transcribed from OCR text extracted from the uploaded PDF. For any criti
 - Bedrooms: 3
 - Bathrooms: 3
 - Original layout string: SC 3/3
+- Original bed string: 2Q - 1F - 3T
 - King beds: 0
-- Queen beds: 0
-- Full beds: 0
-- Twin beds: 0
+- Queen beds: 2
+- Full beds: 1
+- Twin beds: 3
 - Sleeper beds: 0
 - Pets: No Pets
 - Access: Lockbox 0623

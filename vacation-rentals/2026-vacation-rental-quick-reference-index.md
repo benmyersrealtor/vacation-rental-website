@@ -212,6 +212,7 @@ Method: Parsed from OCR text in Telegram upload. Some values may need spot-check
 - Location: Surf City (SC)
 - Bedrooms: 3
 - Bathrooms: 3
+- Bed mix: 2 Queen, 1 Full, 3 Twin
 - Pets: No Pets
 - Access: Lockbox 0623
 - Wi-Fi: Harborhouse

@@ -201,7 +201,19 @@
       "owner": "Barry Stakely",
       "owner_contact": "336-675-0169",
       "cleaner": "Susan \u2014 406-233-2113",
-      "linens": "Sweet Dreams"
+      "linens": "Sweet Dreams",
+      "beds": "2Q - 1F - 3T",
+      "queen": 2,
+      "full": 1,
+      "twin": 3,
+      "king": 0,
+      "sleeper": 0,
+      "bed_summary": {
+        "queen": 2,
+        "full": 1,
+        "twin": 3
+      },
+      "total_listed_sleeping_surfaces": 6
     },
     {
       "name": "Station Vacation Rentals 2026 Season",
