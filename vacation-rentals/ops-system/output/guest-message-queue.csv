@@ -1,11 +1,11 @@
 message_id,property_name,guest_name,booking_id,arrival_date,departure_date,message_type,send_date,send_channel,status,template_name,notes
-MSG-4223680-PRE,Station Vacation Rentals,"McConnon, Colton",BOOK-4223680,2026-03-14,2026-03-22,pre_arrival,2026-03-14,review,pending,pre-arrival-standard,Set final send timing by source/channel
-MSG-4223680-POST,Station Vacation Rentals,"McConnon, Colton",BOOK-4223680,2026-03-14,2026-03-22,post_stay,2026-03-22,review,pending,thank-you-direct-offer,Review OTA/direct rules before sending
-MSG-4212430-PRE,Seafoam Cottage,Owner Reservation,BOOK-4212430,2026-03-16,2026-03-20,pre_arrival,2026-03-16,review,pending,pre-arrival-standard,Set final send timing by source/channel
-MSG-4212430-POST,Seafoam Cottage,Owner Reservation,BOOK-4212430,2026-03-16,2026-03-20,post_stay,2026-03-20,review,pending,thank-you-direct-offer,Review OTA/direct rules before sending
-MSG-4201459-PRE,Aqua Stella,Owner Reservation,BOOK-4201459,2026-03-21,2026-03-29,pre_arrival,2026-03-21,review,pending,pre-arrival-standard,Set final send timing by source/channel
-MSG-4201459-POST,Aqua Stella,Owner Reservation,BOOK-4201459,2026-03-21,2026-03-29,post_stay,2026-03-29,review,pending,thank-you-direct-offer,Review OTA/direct rules before sending
-MSG-4178839-PRE,Tahiti Sweetie,"Farlow, Martha",BOOK-4178839,2026-03-26,2026-03-29,pre_arrival,2026-03-26,review,pending,pre-arrival-standard,Set final send timing by source/channel
-MSG-4178839-POST,Tahiti Sweetie,"Farlow, Martha",BOOK-4178839,2026-03-26,2026-03-29,post_stay,2026-03-29,review,pending,thank-you-direct-offer,Review OTA/direct rules before sending
-MSG-4223681-PRE,Station Vacation Rentals,"Birmingham, Elizabeth",BOOK-4223681,2026-03-27,2026-04-06,pre_arrival,2026-03-27,review,pending,pre-arrival-standard,Set final send timing by source/channel
-MSG-4223681-POST,Station Vacation Rentals,"Birmingham, Elizabeth",BOOK-4223681,2026-03-27,2026-04-06,post_stay,2026-04-06,review,pending,thank-you-direct-offer,Review OTA/direct rules before sending
+PRE-BOOK-4223680,Station Vacation Rentals,"McConnon, Colton",BOOK-4223680,2026-03-14,2026-03-22,pre_arrival,2026-03-14,review_needed,pending,pre-arrival-standard,Adjust send timing/channel by booking source
+POST-BOOK-4223680,Station Vacation Rentals,"McConnon, Colton",BOOK-4223680,2026-03-14,2026-03-22,post_stay_thank_you,2026-03-22,review_needed,pending,post-stay-direct-booking-offer,Review OTA/direct rules before sending
+PRE-BOOK-4212430,Seafoam Cottage,Owner Reservation,BOOK-4212430,2026-03-16,2026-03-20,pre_arrival,2026-03-16,review_needed,pending,pre-arrival-standard,Adjust send timing/channel by booking source
+POST-BOOK-4212430,Seafoam Cottage,Owner Reservation,BOOK-4212430,2026-03-16,2026-03-20,post_stay_thank_you,2026-03-20,review_needed,pending,post-stay-direct-booking-offer,Review OTA/direct rules before sending
+PRE-BOOK-4201459,Aqua Stella,Owner Reservation,BOOK-4201459,2026-03-21,2026-03-29,pre_arrival,2026-03-21,review_needed,pending,pre-arrival-standard,Adjust send timing/channel by booking source
+POST-BOOK-4201459,Aqua Stella,Owner Reservation,BOOK-4201459,2026-03-21,2026-03-29,post_stay_thank_you,2026-03-29,review_needed,pending,post-stay-direct-booking-offer,Review OTA/direct rules before sending
+PRE-BOOK-4178839,Tahiti Sweetie,"Farlow, Martha",BOOK-4178839,2026-03-26,2026-03-29,pre_arrival,2026-03-26,review_needed,pending,pre-arrival-standard,Adjust send timing/channel by booking source
+POST-BOOK-4178839,Tahiti Sweetie,"Farlow, Martha",BOOK-4178839,2026-03-26,2026-03-29,post_stay_thank_you,2026-03-29,review_needed,pending,post-stay-direct-booking-offer,Review OTA/direct rules before sending
+PRE-BOOK-4223681,Station Vacation Rentals,"Birmingham, Elizabeth",BOOK-4223681,2026-03-27,2026-04-06,pre_arrival,2026-03-27,review_needed,pending,pre-arrival-standard,Adjust send timing/channel by booking source
+POST-BOOK-4223681,Station Vacation Rentals,"Birmingham, Elizabeth",BOOK-4223681,2026-03-27,2026-04-06,post_stay_thank_you,2026-04-06,review_needed,pending,post-stay-direct-booking-offer,Review OTA/direct rules before sending

@@ -1,6 +1,6 @@
 turnover_id,property_name,address,checkout_date,next_arrival_date,gap_days,same_day_turn,cleaner,linens_vendor,bedrooms,bathrooms,bed_mix,reservation_type,owner_reservation,priority,cleaning_status,linens_status,notes
-TURN-4201459,Aqua Stella,2135-B Ocean Blvd,2026-03-29,,,no,Nancy Cooper,Jennifer,2,3,"1K, 1Q, 1F, 1S",Owner Reservation,yes,normal,pending,pending,Imported from 2026-03-13 check-in report
-TURN-4212430,Seafoam Cottage,312 S Anderson Blvd,2026-03-20,,,no,Laura — 406-431-4402,Jennifer,5,3,"3Q, 4T",Owner Reservation,yes,normal,pending,pending,Imported from 2026-03-13 check-in report
-TURN-4223680,Station Vacation Rentals,809 N Anderson Blvd,2026-03-22,2026-03-27,5,no,Laura — 406-431-4402,Jennifer,5,3.5,unknown,Tenant Stay,no,normal,pending,pending,Imported from 2026-03-13 check-in report
-TURN-4223681,Station Vacation Rentals,809 N Anderson Blvd,2026-04-06,,,no,Laura — 406-431-4402,Jennifer,5,3.5,unknown,Tenant Stay,no,normal,pending,pending,Imported from 2026-03-13 check-in report
-TURN-4178839,Tahiti Sweetie,1113 N Anderson Blvd,2026-03-29,,,no,Laura — 406-431-4402,Jennifer,4,2,"1K, 1Q, 4S",Tenant Stay,no,normal,pending,pending,Imported from 2026-03-13 check-in report
+TURN-BOOK-4223680,Station Vacation Rentals,809 N Anderson Blvd,2026-03-22,2026-03-27,5,no,Laura — 406-431-4402,Jennifer,5,3.5,unknown,Tenant Stay,no,normal,pending,pending,Imported from 2026-03-13 check-in report
+TURN-BOOK-4223681,Station Vacation Rentals,809 N Anderson Blvd,2026-04-06,,,no,Laura — 406-431-4402,Jennifer,5,3.5,unknown,Tenant Stay,no,normal,pending,pending,Imported from 2026-03-13 check-in report
+TURN-BOOK-4212430,Seafoam Cottage,312 S Anderson Blvd,2026-03-20,,,no,Laura — 406-431-4402,Jennifer,5,3,"3Q, 4T",Owner Reservation,yes,review,pending,pending,Imported from 2026-03-13 check-in report
+TURN-BOOK-4201459,Aqua Stella,2135-B Ocean Blvd,2026-03-29,,,no,Nancy Cooper,Jennifer,2,3,"1K, 1Q, 1F, 1S",Owner Reservation,yes,review,pending,pending,Imported from 2026-03-13 check-in report
+TURN-BOOK-4178839,Tahiti Sweetie,1113 N Anderson Blvd,2026-03-29,,,no,Laura — 406-431-4402,Jennifer,4,2,"1K, 1Q, 4S",Tenant Stay,no,normal,pending,pending,Imported from 2026-03-13 check-in report
