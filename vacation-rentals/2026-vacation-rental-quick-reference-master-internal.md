@@ -73,7 +73,7 @@ Method: Transcribed from OCR text extracted from the uploaded PDF. For any criti
 - Wi‑Fi password: prooforange556
 - Owner: Sharon Coleman
 - Owner contact: 804-347-8193
-- Cleaner: Laura — 406-431-4402
+- Cleaner: Nancy Cooper
 - Linens: Jennifer
 
 ## Wall Cottage South Duplex

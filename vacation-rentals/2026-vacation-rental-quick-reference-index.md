@@ -52,7 +52,7 @@ Method: Parsed from OCR text in Telegram upload. Some values may need spot-check
 - Notes: Sensitive details stored in internal master file
 - Owner: Sharon Coleman
 - Owner contact: 804-347-8193
-- Cleaner: Laura — 406-431-4402
+- Cleaner: Nancy Cooper
 - Linens: Jennifer
 
 ### Wall Cottage South Duplex
