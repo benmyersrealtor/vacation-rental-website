@@ -1,0 +1,2 @@
+message_id,property_name,guest_name,booking_id,arrival_date,departure_date,message_type,send_date,send_channel,status,template_name,notes
+MSG-001,Station Vacation Rentals,Jane Guest,EXAMPLE-001,2026-03-14,2026-03-22,pre_arrival,2026-03-11,email,pending,pre-arrival-standard,Review OTA/direct rules before sending

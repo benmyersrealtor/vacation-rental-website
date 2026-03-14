@@ -1,0 +1,2 @@
+turnover_id,property_name,address,checkout_date,next_arrival_date,gap_days,same_day_turn,cleaner,linens_vendor,bedrooms,bathrooms,bed_mix,reservation_type,owner_reservation,priority,cleaning_status,linens_status,notes
+TURN-001,Station Vacation Rentals,809 N Anderson Blvd,2026-03-22,2026-03-27,5,no,Laura — 406-431-4402,Jennifer,5,3.5,unknown,no owner reservation,yes,normal,pending,pending,Generated from bookings-current.csv

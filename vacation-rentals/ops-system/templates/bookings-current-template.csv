@@ -1,0 +1,2 @@
+booking_id,lease_id,reservation_type,booking_source,guest_name,property_name,property_id,address,arrival_date,departure_date,status,owner_reservation,days_vacant_before_arrival,balance_due,same_day_turn,early_checkin,late_checkout,pets,notes,last_updated
+EXAMPLE-001,4223680,Tenant Stay,Direct,Jane Guest,Station Vacation Rentals,162338,809 N Anderson Blvd,2026-03-14,2026-03-22,confirmed,no,14,0.00,no,no,no,unknown,Imported from PMS report,2026-03-14

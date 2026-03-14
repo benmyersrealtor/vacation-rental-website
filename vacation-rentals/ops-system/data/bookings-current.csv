@@ -1,0 +1,6 @@
+booking_id,lease_id,reservation_type,booking_source,guest_name,property_name,property_id,address,arrival_date,departure_date,status,owner_reservation,days_vacant_before_arrival,balance_due,same_day_turn,early_checkin,late_checkout,pets,notes,last_updated
+BOOK-4223680,4223680,Tenant Stay,Unknown,"McConnon, Colton",Station Vacation Rentals,162338,809 N Anderson Blvd,2026-03-14,2026-03-22,confirmed,no,14,0.00,no,no,no,unknown,Imported from 2026-03-13 check-in report,2026-03-14
+BOOK-4212430,4212430,Owner Reservation,Unknown,Owner Reservation,Seafoam Cottage,142533,312 S Anderson Blvd,2026-03-16,2026-03-20,confirmed,yes,5,0.00,no,no,no,unknown,Imported from 2026-03-13 check-in report,2026-03-14
+BOOK-4201459,4201459,Owner Reservation,Unknown,Owner Reservation,Aqua Stella,162451,2135-B Ocean Blvd,2026-03-21,2026-03-29,confirmed,yes,10,0.00,no,no,no,unknown,Imported from 2026-03-13 check-in report,2026-03-14
+BOOK-4178839,4178839,Tenant Stay,Unknown,"Farlow, Martha",Tahiti Sweetie,146278,1113 N Anderson Blvd,2026-03-26,2026-03-29,confirmed,no,164,1240.62,no,no,no,unknown,Imported from 2026-03-13 check-in report,2026-03-14
+BOOK-4223681,4223681,Tenant Stay,Unknown,"Birmingham, Elizabeth",Station Vacation Rentals,162338,809 N Anderson Blvd,2026-03-27,2026-04-06,confirmed,no,5,0.00,no,no,no,unknown,Imported from 2026-03-13 check-in report,2026-03-14
