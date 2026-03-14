@@ -298,7 +298,7 @@ Method: Transcribed from OCR text extracted from the uploaded PDF. For any criti
 - Cleaner: Jamie — 252-470-1882
 - Linens: Sweet Dreams
 
-## 1601-B
+## Harbor House
 - Address: 1601-B N New River Drive
 - Location code: SC
 - Location: Surf City

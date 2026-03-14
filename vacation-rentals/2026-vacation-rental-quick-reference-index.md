@@ -207,7 +207,7 @@ Method: Parsed from OCR text in Telegram upload. Some values may need spot-check
 - Cleaner: Jamie — 252-470-1882
 - Linens: Sweet Dreams
 
-### 1601-B
+### Harbor House
 - Address: 1601-B N New River Drive
 - Location: Surf City (SC)
 - Bedrooms: 3
