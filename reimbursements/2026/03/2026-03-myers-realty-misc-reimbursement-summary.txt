@@ -1,0 +1,42 @@
+Myers Realty - Miscellaneous Expense Reimbursement Summary
+Prepared for accountant reimbursement review
+
+Summary of receipts submitted:
+
+1) R-2026-0005
+   Vendor: VistaPrint
+   Expense date: 2026-03-16
+   Amount: $112.48
+   Notes: Imported from Chase transaction details PDF; category shown as Professional services.
+
+2) R-2026-0006
+   Vendor: Amazon
+   Expense date: 2025-11-12
+   Amount: $70.47
+   Notes: Grill liner order details PDF.
+
+3) R-2026-0007
+   Vendor: Walmart.com
+   Expense date: 2025-11-17
+   Amount: $19.54
+   Notes: Purchased 5 cooler bags for embroidery, 1st batch.
+
+4) R-2026-0008
+   Vendor: Walmart.com
+   Expense date: 2025-12-13
+   Amount: $19.54
+   Notes: Purchased 5 cooler bags for embroidery.
+
+5) R-2026-0009
+   Vendor: Thread FX
+   Expense date: 2025-11-21
+   Amount: $64.05
+   Notes: Amount and invoice date provided manually because source PDF was image-only.
+
+Reimbursing entity: Myers Realty
+Paid by: Ben Myers
+Category: Miscellaneous expenses
+
+Total reimbursement requested: $286.08
+
+Supporting PDFs on file in reimbursement archive.
