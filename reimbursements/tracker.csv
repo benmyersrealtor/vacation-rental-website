@@ -1,1 +1,2 @@
 receipt_id,received_date,expense_date,vendor,amount,tax_amount,payment_method,card_last4,receipt_number,category,business_purpose,property_or_job,paid_by,reimbursed_by,status,file_path,notes
+R-2026-0001,2026-03-16,2026-03-02,Grandover Resort,80.32,,Visa,7935,89121,Meals/Travel,Dinner during NC Realtors strategic planning session,,Ben Myers,NC Realtors,ready_for_reimbursement,reimbursements/2026/03/2026-03-02_grandover-resort_80.32_ben.jpg,"Attendees: Samantha and Jamie from the exec committee. Table 24. Server Tiffany W."
