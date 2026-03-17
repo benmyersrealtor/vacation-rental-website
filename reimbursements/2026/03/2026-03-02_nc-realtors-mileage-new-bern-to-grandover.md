@@ -11,6 +11,7 @@
 - **Mileage rate (2026):** $0.752/mile
 - **Calculated reimbursement:** $294.78
 - **Reimbursed by:** NC Realtors
+- **Traveler count:** 1 (Ben Myers only)
 
 ## Calculation
 
