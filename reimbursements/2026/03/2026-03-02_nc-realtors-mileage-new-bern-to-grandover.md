@@ -9,7 +9,9 @@
 - **Estimated one-way miles:** 196
 - **Estimated round-trip miles:** 392
 - **Mileage rate (2026):** $0.752/mile
-- **Calculated reimbursement:** $294.78
+- **Calculated mileage reimbursement:** $294.78
+- **Related receipt reimbursement:** $80.32
+- **Combined trip reimbursement total:** $375.10
 - **Reimbursed by:** NC Realtors
 - **Traveler count:** 1 (Ben Myers only)
 
