@@ -127,5 +127,19 @@ Myers Realty website + workflows
 6. Is RTR strong enough to power direct booking growth directly, or do we need a custom frontend?
 7. Which parts should be phase 1 vs later?
 
+## Realtime call update (2026-03-19)
+- The call went well.
+- Realtime is looking into **automating check-in and check-out reports by email** so the needed report data can be delivered automatically.
+- Near-term plan: build the workflow around **automated emailed reports** if they enable that first.
+- Realtime also indicated the API is likely **fairly full-featured** and intended for **website data + booking** use cases.
+- That suggests the API may support website-originated bookings and data changes when a booking occurs on the website.
+
+## Working assumption after call
+Short term:
+- use emailed check-in/check-out reports as the practical workflow input for automation
+
+Long term:
+- evaluate the full API for custom website, direct booking, and deeper workflow automation
+
 ## Next step after the call
 Revisit this note and turn it into an implementation brainstorm based on what Realtime confirms they can provide.
