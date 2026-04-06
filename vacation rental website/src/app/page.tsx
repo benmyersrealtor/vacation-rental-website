@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const featuredProperties = [
   {
     id: "salty-winds",
@@ -63,11 +65,15 @@ export default function Home() {
     <div className="min-h-screen bg-[var(--sand)] text-[var(--ink)]">
       <header className="border-b border-[var(--line)] bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[var(--brand)]">
-              Myers Realty, Inc.
-            </p>
-            <h1 className="text-xl font-semibold text-[var(--brand-deep)]">Topsail Rentals</h1>
+          <div className="flex items-center gap-4">
+            <Image
+              src="/brand/myers-realty-logo.jpg"
+              alt="Myers Realty, Inc."
+              width={240}
+              height={68}
+              className="h-auto w-[180px] sm:w-[220px]"
+              priority
+            />
           </div>
           <nav className="hidden gap-8 text-sm font-medium text-[var(--muted)] md:flex">
             <a href="#search" className="hover:text-[var(--brand)]">Search</a>
