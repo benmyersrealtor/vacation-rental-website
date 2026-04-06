@@ -20,7 +20,7 @@ export default function PropertiesPage() {
           </p>
         </div>
 
-        <div className="sticky top-[132px] z-20 mb-8 rounded-[24px] border border-[var(--line)] bg-white/96 p-4 shadow-sm backdrop-blur sm:top-[88px] sm:rounded-[28px] sm:p-6">
+        <div className="mb-8 rounded-[24px] border border-[var(--line)] bg-white/96 p-4 shadow-sm backdrop-blur sm:rounded-[28px] sm:p-6">
           <div className="grid gap-3 md:grid-cols-4 md:gap-4">
             <label className="min-w-0 space-y-2 text-sm font-medium text-[var(--muted-dark)]">
               Arrival
