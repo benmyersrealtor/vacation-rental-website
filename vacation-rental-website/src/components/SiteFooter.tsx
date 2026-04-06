@@ -31,7 +31,7 @@ export function SiteFooter() {
           <h3 className="text-sm font-semibold uppercase tracking-[0.22em] text-[var(--brand)]">Contact</h3>
           <div className="mt-4 space-y-3 text-sm text-[var(--muted)]">
             <p>Myers Realty, Inc.</p>
-            <p>Surf City / Topsail Island, NC</p>
+            <p>14254 NC-50 Suite B, Surf City, NC 28445</p>
             <p>(910) 507-1030</p>
             <p>Vacation@myersrealtync.com</p>
           </div>
