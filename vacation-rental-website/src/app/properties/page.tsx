@@ -22,10 +22,27 @@ export default function PropertiesPage() {
 
         <div className="sticky top-[132px] z-20 mb-8 rounded-[24px] border border-[var(--line)] bg-white/96 p-4 shadow-sm backdrop-blur sm:top-[88px] sm:rounded-[28px] sm:p-6">
           <div className="grid gap-3 md:grid-cols-4 md:gap-4">
-            <input className="field" defaultValue="June 20" aria-label="Arrival" />
-            <input className="field" defaultValue="June 27" aria-label="Departure" />
-            <input className="field" defaultValue="8 guests" aria-label="Guests" />
-            <button className="rounded-2xl bg-[var(--brand)] px-4 py-3 text-sm font-semibold text-white hover:bg-[var(--brand-deep)]">Update search</button>
+            <label className="min-w-0 space-y-2 text-sm font-medium text-[var(--muted-dark)]">
+              Arrival
+              <input className="field field-compact" defaultValue="2026-06-20" type="date" aria-label="Arrival" />
+            </label>
+            <label className="min-w-0 space-y-2 text-sm font-medium text-[var(--muted-dark)]">
+              Departure
+              <input className="field field-compact" defaultValue="2026-06-27" type="date" aria-label="Departure" />
+            </label>
+            <label className="min-w-0 space-y-2 text-sm font-medium text-[var(--muted-dark)]">
+              Guests
+              <select className="field" defaultValue="8" aria-label="Guests">
+                <option>2</option>
+                <option>4</option>
+                <option>6</option>
+                <option>8</option>
+                <option>10+</option>
+              </select>
+            </label>
+            <div className="flex items-end">
+              <button className="w-full rounded-2xl bg-[var(--brand)] px-4 py-3 text-sm font-semibold text-white hover:bg-[var(--brand-deep)]">Update search</button>
+            </div>
           </div>
 
           <div className="mt-4 flex flex-wrap gap-2">
