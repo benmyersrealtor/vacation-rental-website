@@ -110,8 +110,9 @@ export default function Home() {
                 A cleaner, faster direct-booking experience for Topsail Island rentals.
               </h2>
               <p className="mt-5 max-w-xl text-base leading-7 text-white/88 sm:text-lg">
-                This mockup keeps the Myers Realty coastal palette and professional tone, but shifts the site toward
-                modern search, strong property merchandising, and a booking flow ready for RealTime Rental API data.
+                Myers Realty Inc is a trusted coastal property expert specializing in Topsail Island vacation rentals.
+                With deep local roots and a commitment to exceptional service, we help guests find the perfect getaway
+                and owners maximize their investment with confidence.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
