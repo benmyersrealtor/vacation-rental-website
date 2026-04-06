@@ -60,69 +60,6 @@ const destinations = [
   },
 ];
 
-const visitorGuideSections = [
-  {
-    title: "Island Eats",
-    items: [
-      "Daddy Mac’s Beach Grille",
-      "Surf City Smash",
-      "Maine Lobstah Shack",
-      "Splash by the Sea",
-      "Buddy’s Crab House & Oyster Bar",
-      "Beach Shop & Grill",
-    ],
-  },
-  {
-    title: "Island Shops",
-    items: [
-      "Topsail Island Trading Company",
-      "Topsail Surf & Cycle",
-      "Gift Basket of Topsail Island",
-      "Herring’s Outdoor Sports",
-      "Spinnaker Surf Shop",
-      "South End Outfitters",
-    ],
-  },
-  {
-    title: "Island Brews",
-    items: [
-      "Topsail Island Brewing",
-      "Salty Turtle Beer Company",
-      "The Peak Taphouse and Kitchen",
-    ],
-  },
-  {
-    title: "Island Action",
-    items: [
-      "Karen Beasley Sea Turtle Rescue",
-      "Topsail Beach Skating Rink",
-      "High Tides & Good Vibes",
-    ],
-  },
-  {
-    title: "Island Rides",
-    items: [
-      "Topsail Surf & Cycle",
-      "Tuck’s Water Shuttle",
-      "50 South Surf Shop",
-      "Bert’s Surf Shop",
-      "Aquaholics Boat Rentals",
-      "On Shore Surf Shop",
-    ],
-  },
-  {
-    title: "Island Provisions",
-    items: [
-      "Publix Super Market",
-      "Surf City IGA",
-      "Godwin’s Market",
-      "Harris Teeter",
-      "Salt Marsh Market",
-      "Walmart Neighborhood Market",
-    ],
-  },
-];
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-[var(--sand)] text-[var(--ink)]">
@@ -142,7 +79,7 @@ export default function Home() {
             <a href="#search" className="hover:text-[var(--brand)]">Search</a>
             <a href="#featured" className="hover:text-[var(--brand)]">Featured Homes</a>
             <a href="#destinations" className="hover:text-[var(--brand)]">Areas</a>
-            <a href="#visitors-guide" className="hover:text-[var(--brand)]">Visitors Guide</a>
+            <a href="https://myersrealtyinc.com/visitors-guide" target="_blank" rel="noreferrer" className="hover:text-[var(--brand)]">Visitors Guide</a>
             <a href="#why" className="hover:text-[var(--brand)]">Why Book Direct</a>
             <a href="#about-us" className="hover:text-[var(--brand)]">About Us</a>
           </nav>
@@ -250,52 +187,6 @@ export default function Home() {
                 Prototype note: in production, this search would read from cached property data and check live rates /
                 availability through RealTime Rental before checkout.
               </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="mx-auto max-w-7xl px-6 py-6 lg:px-10" id="visitors-guide">
-          <div className="rounded-[32px] border border-[var(--line)] bg-[var(--mist)] p-8 shadow-sm">
-            <div className="mb-6 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--brand)]">Visitors guide</p>
-                <h3 className="mt-2 text-3xl font-semibold text-[var(--brand-deep)]">Local favorites, essentials, and island resources.</h3>
-              </div>
-              <p className="max-w-2xl text-sm leading-6 text-[var(--muted)]">
-                Adapted from the current Myers Realty visitors guide, this section can become a richer on-site resource for
-                guests planning where to eat, shop, explore, and stock up during their stay.
-              </p>
-            </div>
-
-            <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-              {visitorGuideSections.map((section) => (
-                <div key={section.title} className="rounded-[24px] bg-white p-5 shadow-sm">
-                  <h4 className="text-xl font-semibold text-[var(--brand-deep)]">{section.title}</h4>
-                  <ul className="mt-4 space-y-2 text-sm leading-6 text-[var(--muted)]">
-                    {section.items.map((item) => (
-                      <li key={item}>• {item}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-
-            <div className="mt-5 rounded-[24px] bg-white p-5 shadow-sm">
-              <h4 className="text-xl font-semibold text-[var(--brand-deep)]">Town Resources</h4>
-              <div className="mt-4 grid gap-4 md:grid-cols-3">
-                <div>
-                  <p className="font-semibold text-[var(--brand-deep)]">Topsail Beach</p>
-                  <p className="mt-1 text-sm leading-6 text-[var(--muted)]">Official town information and visitor resources for the south end of the island.</p>
-                </div>
-                <div>
-                  <p className="font-semibold text-[var(--brand-deep)]">Surf City</p>
-                  <p className="mt-1 text-sm leading-6 text-[var(--muted)]">Visitor information, regulations, town services, and local guidance for the central island area.</p>
-                </div>
-                <div>
-                  <p className="font-semibold text-[var(--brand-deep)]">North Topsail Beach</p>
-                  <p className="mt-1 text-sm leading-6 text-[var(--muted)]">Community and visitor resources for the north end of Topsail Island.</p>
-                </div>
-              </div>
             </div>
           </div>
         </section>
