@@ -110,9 +110,8 @@ export default function Home() {
                 A cleaner, faster direct-booking experience for Topsail Island rentals.
               </h2>
               <p className="mt-5 max-w-xl text-base leading-7 text-white/88 sm:text-lg">
-                Myers Realty Inc is a trusted coastal property expert specializing in Topsail Island vacation rentals.
-                With deep local roots and a commitment to exceptional service, we help guests find the perfect getaway
-                and owners maximize their investment with confidence.
+                Topsail Island welcomes you with 27 miles of unspoiled beaches, gentle ocean breezes, and a relaxed
+                coastal charm that makes every visit feel like coming home.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
