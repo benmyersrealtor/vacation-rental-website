@@ -107,7 +107,7 @@ export default function Home() {
                 Prototype direction
               </p>
               <h2 className="text-4xl font-semibold leading-tight sm:text-5xl">
-                A cleaner, faster direct-booking experience for Topsail Island rentals.
+                Your perfect beach escape starts here.
               </h2>
               <p className="mt-5 max-w-xl text-base leading-7 text-white/88 sm:text-lg">
                 Topsail Island welcomes you with 27 miles of unspoiled beaches, gentle ocean breezes, and a relaxed
