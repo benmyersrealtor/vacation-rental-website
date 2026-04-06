@@ -106,7 +106,7 @@ export default function Home() {
           <div className="relative mx-auto grid max-w-7xl gap-10 px-6 py-20 lg:grid-cols-[1.2fr_0.8fr] lg:px-10 lg:py-28">
             <div className="max-w-2xl text-white">
               <p className="mb-4 text-sm font-semibold uppercase tracking-[0.32em] text-[var(--foam)]">
-                Prototype direction
+                Topsail Island Awaits
               </p>
               <h2 className="text-4xl font-semibold leading-tight sm:text-5xl">
                 Your perfect beach escape starts here.
