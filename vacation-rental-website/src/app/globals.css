@@ -33,6 +33,7 @@ a {
 
 .field {
   width: 100%;
+  min-width: 0;
   border-radius: 18px;
   border: 1px solid var(--line);
   background: white;
@@ -40,6 +41,10 @@ a {
   color: var(--ink);
   outline: none;
   transition: border-color 120ms ease, box-shadow 120ms ease;
+}
+
+.field-compact {
+  max-width: 100%;
 }
 
 .field:focus {

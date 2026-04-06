@@ -64,14 +64,14 @@ export default function Home() {
                 <h2 className="mt-2 text-2xl font-semibold text-[var(--brand-deep)]">Find your coastal stay</h2>
               </div>
 
-              <div className="grid gap-4 sm:grid-cols-2">
+              <div className="grid gap-3 sm:grid-cols-2 sm:gap-4">
                 <label className="space-y-2 text-sm font-medium text-[var(--muted-dark)]">
                   Arrival
-                  <input className="field" defaultValue="2026-06-20" type="date" />
+                  <input className="field field-compact" defaultValue="2026-06-20" type="date" />
                 </label>
                 <label className="space-y-2 text-sm font-medium text-[var(--muted-dark)]">
                   Departure
-                  <input className="field" defaultValue="2026-06-27" type="date" />
+                  <input className="field field-compact" defaultValue="2026-06-27" type="date" />
                 </label>
                 <label className="space-y-2 text-sm font-medium text-[var(--muted-dark)]">
                   Guests
