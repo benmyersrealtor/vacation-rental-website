@@ -64,16 +64,16 @@ export default function Home() {
                 <h2 className="mt-2 text-2xl font-semibold text-[var(--brand-deep)]">Find your coastal stay</h2>
               </div>
 
-              <div className="grid gap-3 sm:grid-cols-2 sm:gap-4">
-                <label className="space-y-2 text-sm font-medium text-[var(--muted-dark)]">
+              <div className="grid min-w-0 gap-3 sm:grid-cols-2 sm:gap-4">
+                <label className="min-w-0 space-y-2 text-sm font-medium text-[var(--muted-dark)]">
                   Arrival
                   <input className="field field-compact" defaultValue="2026-06-20" type="date" />
                 </label>
-                <label className="space-y-2 text-sm font-medium text-[var(--muted-dark)]">
+                <label className="min-w-0 space-y-2 text-sm font-medium text-[var(--muted-dark)]">
                   Departure
                   <input className="field field-compact" defaultValue="2026-06-27" type="date" />
                 </label>
-                <label className="space-y-2 text-sm font-medium text-[var(--muted-dark)]">
+                <label className="min-w-0 space-y-2 text-sm font-medium text-[var(--muted-dark)]">
                   Guests
                   <select className="field" defaultValue="8">
                     <option>2</option>
@@ -83,7 +83,7 @@ export default function Home() {
                     <option>10+</option>
                   </select>
                 </label>
-                <label className="space-y-2 text-sm font-medium text-[var(--muted-dark)]">
+                <label className="min-w-0 space-y-2 text-sm font-medium text-[var(--muted-dark)]">
                   Area
                   <select className="field" defaultValue="Surf City">
                     <option>Surf City</option>

@@ -45,6 +45,13 @@ a {
 
 .field-compact {
   max-width: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+input[type="date"] {
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .field:focus {
