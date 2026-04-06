@@ -76,6 +76,8 @@ export default function Home() {
             />
           </div>
           <nav className="hidden gap-8 text-sm font-medium text-[var(--muted)] md:flex">
+            <a href="#about-us" className="hover:text-[var(--brand)]">About Us</a>
+            <a href="#visitors-guide" className="hover:text-[var(--brand)]">Visitors Guide</a>
             <a href="#search" className="hover:text-[var(--brand)]">Search</a>
             <a href="#featured" className="hover:text-[var(--brand)]">Featured Homes</a>
             <a href="#destinations" className="hover:text-[var(--brand)]">Areas</a>
@@ -185,6 +187,42 @@ export default function Home() {
                 Prototype note: in production, this search would read from cached property data and check live rates /
                 availability through RealTime Rental before checkout.
               </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-7xl px-6 py-14 lg:px-10" id="about-us">
+          <div className="grid gap-6 rounded-[32px] border border-[var(--line)] bg-white p-8 shadow-sm lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--brand)]">About us</p>
+              <h3 className="mt-3 text-3xl font-semibold text-[var(--brand-deep)]">Local knowledge, steady management, and a better guest experience.</h3>
+            </div>
+            <div>
+              <p className="text-sm leading-7 text-[var(--muted)]">
+                Myers Realty, Inc. serves Topsail Island with a mix of local market experience, vacation rental
+                management expertise, and hands-on service. This section can become the home for your company story,
+                owner value proposition, and trust-building content for direct bookings.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-7xl px-6 py-6 lg:px-10" id="visitors-guide">
+          <div className="rounded-[32px] border border-[var(--line)] bg-[var(--mist)] p-8 shadow-sm">
+            <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--brand)]">Visitors guide</p>
+            <div className="mt-3 grid gap-5 md:grid-cols-3">
+              <div className="rounded-[24px] bg-white p-5">
+                <h4 className="text-xl font-semibold text-[var(--brand-deep)]">Where to stay</h4>
+                <p className="mt-2 text-sm leading-6 text-[var(--muted)]">Help guests understand the vibe of Surf City, North Topsail Beach, and Topsail Beach.</p>
+              </div>
+              <div className="rounded-[24px] bg-white p-5">
+                <h4 className="text-xl font-semibold text-[var(--brand-deep)]">What to do</h4>
+                <p className="mt-2 text-sm leading-6 text-[var(--muted)]">Feature beaches, fishing, dining, family activities, and seasonal events.</p>
+              </div>
+              <div className="rounded-[24px] bg-white p-5">
+                <h4 className="text-xl font-semibold text-[var(--brand-deep)]">Plan your trip</h4>
+                <p className="mt-2 text-sm leading-6 text-[var(--muted)]">Add check-in tips, packing notes, beach rules, and local recommendations.</p>
+              </div>
             </div>
           </div>
         </section>
