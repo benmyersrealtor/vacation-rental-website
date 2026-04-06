@@ -84,7 +84,12 @@ export default async function PropertyDetailPage({ params }: { params: Promise<{
                   </p>
                 </div>
 
-                <button className="mt-6 w-full rounded-2xl bg-[var(--brand)] px-4 py-3.5 text-sm font-semibold text-white hover:bg-[var(--brand-deep)]">Request to Book</button>
+                <a
+                  href={`/inquire?property=${property.slug}&checkIn=2026-06-20&checkOut=2026-06-27&guests=${property.sleeps >= 10 ? "8" : "6"}`}
+                  className="mt-6 block w-full rounded-2xl bg-[var(--brand)] px-4 py-3.5 text-center text-sm font-semibold text-white hover:bg-[var(--brand-deep)]"
+                >
+                  Request to Book
+                </a>
 
                 <div className="mt-5 space-y-2 text-sm text-[var(--muted)]">
                   <p>• Managed locally by Myers Realty</p>
@@ -168,7 +173,12 @@ export default async function PropertyDetailPage({ params }: { params: Promise<{
                 <p className="mt-3 text-sm leading-6 text-white/85">
                   This site is currently set up for inquiry-only booking flow. Once RealTime Rental API access is connected, live availability and quoting can feed this panel directly.
                 </p>
-                <button className="mt-5 w-full rounded-2xl bg-white px-4 py-3 text-sm font-semibold text-[var(--brand-deep)] hover:bg-[var(--sand)]">Request to Book</button>
+                <a
+                  href={`/inquire?property=${property.slug}&checkIn=2026-06-20&checkOut=2026-06-27&guests=${property.sleeps >= 10 ? "8" : "6"}`}
+                  className="mt-5 block w-full rounded-2xl bg-white px-4 py-3 text-center text-sm font-semibold text-[var(--brand-deep)] hover:bg-[var(--sand)]"
+                >
+                  Request to Book
+                </a>
               </div>
             </div>
           </div>
