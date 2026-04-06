@@ -41,36 +41,36 @@ export default function Home() {
             }}
           />
 
-          <div className="relative mx-auto grid max-w-7xl gap-10 px-6 py-20 lg:grid-cols-[1.2fr_0.8fr] lg:px-10 lg:py-28">
+          <div className="relative mx-auto grid max-w-7xl gap-8 px-4 py-14 sm:px-6 sm:py-18 lg:grid-cols-[1.2fr_0.8fr] lg:gap-10 lg:px-10 lg:py-28">
             <div className="max-w-2xl text-white">
               <p className="mb-4 text-sm font-semibold uppercase tracking-[0.32em] text-[var(--foam)]">
                 Topsail Island Awaits
               </p>
-              <h1 className="text-4xl font-semibold leading-tight sm:text-5xl">
+              <h1 className="text-3xl font-semibold leading-tight sm:text-4xl lg:text-5xl">
                 Your perfect beach escape starts here.
               </h1>
-              <p className="mt-5 max-w-xl text-base leading-7 text-white/88 sm:text-lg">
+              <p className="mt-4 max-w-xl text-sm leading-7 text-white/88 sm:mt-5 sm:text-base lg:text-lg">
                 Topsail Island welcomes you with 27 miles of unspoiled beaches, gentle ocean breezes, and a relaxed
                 coastal charm that makes every visit feel like coming home.
               </p>
 
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-7 flex flex-col gap-3 sm:mt-8 sm:flex-row sm:flex-wrap">
                 <a
                   href="/properties"
-                  className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-[var(--brand-deep)] transition hover:bg-[var(--sand)]"
+                  className="rounded-full bg-white px-6 py-3 text-center text-sm font-semibold text-[var(--brand-deep)] transition hover:bg-[var(--sand)]"
                 >
                   Explore featured homes
                 </a>
                 <a
                   href="#why"
-                  className="rounded-full border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+                  className="rounded-full border border-white/30 px-6 py-3 text-center text-sm font-semibold text-white transition hover:bg-white/10"
                 >
                   See booking concept
                 </a>
               </div>
             </div>
 
-            <div id="search" className="rounded-[28px] bg-white p-6 shadow-2xl ring-1 ring-black/5">
+            <div id="search" className="rounded-[24px] bg-white p-5 shadow-2xl ring-1 ring-black/5 sm:rounded-[28px] sm:p-6">
               <div className="mb-5">
                 <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--brand)]">Availability search</p>
                 <h2 className="mt-2 text-2xl font-semibold text-[var(--brand-deep)]">Find your coastal stay</h2>
@@ -132,7 +132,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-7xl px-6 py-14 lg:px-10" id="why">
+        <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-14 lg:px-10" id="why">
           <div className="grid gap-8 rounded-[32px] border border-[var(--line)] bg-white p-8 shadow-sm lg:grid-cols-[0.9fr_1.1fr]">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--brand)]">Why this direction works</p>
@@ -148,7 +148,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-7xl px-6 py-10 lg:px-10" id="featured">
+        <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-10" id="featured">
           <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--brand)]">Featured rentals</p>
@@ -160,13 +160,13 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid gap-6 lg:grid-cols-3">
+          <div className="grid gap-5 lg:grid-cols-3">
             {featuredProperties.map((property) => (
               <article
                 key={property.id}
-                className="overflow-hidden rounded-[28px] border border-[var(--line)] bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+                className="overflow-hidden rounded-[24px] border border-[var(--line)] bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg sm:rounded-[28px]"
               >
-                <div className="h-64 bg-cover bg-center" style={{ backgroundImage: `url(${property.image})` }} />
+                <div className="h-56 bg-cover bg-center sm:h-64" style={{ backgroundImage: `url(${property.image})` }} />
                 <div className="p-6">
                   <div className="mb-3 flex items-center justify-between gap-3">
                     <span className="rounded-full bg-[var(--mist)] px-3 py-1 text-xs font-semibold text-[var(--brand)]">
@@ -174,7 +174,7 @@ export default function Home() {
                     </span>
                     <span className="text-sm font-semibold text-[var(--brand-deep)]">From {property.price}/night</span>
                   </div>
-                  <h3 className="text-2xl font-semibold text-[var(--brand-deep)]">{property.name}</h3>
+                  <h3 className="text-xl font-semibold text-[var(--brand-deep)] sm:text-2xl">{property.name}</h3>
                   <p className="mt-2 text-sm text-[var(--muted)]">{property.location}</p>
                   <div className="mt-5 flex flex-wrap gap-2 text-sm text-[var(--muted-dark)]">
                     <span className="chip">{property.beds} bedrooms</span>
@@ -182,7 +182,7 @@ export default function Home() {
                     <span className="chip">Sleeps {property.sleeps}</span>
                   </div>
                   <p className="mt-4 text-sm leading-6 text-[var(--muted)]">{property.summary}</p>
-                  <div className="mt-6 flex gap-3">
+                  <div className="mt-6 flex flex-col gap-3 sm:flex-row">
                     <a
                       href={`/properties/${property.slug}`}
                       className="flex-1 rounded-2xl bg-[var(--brand)] px-4 py-3 text-center text-sm font-semibold text-white hover:bg-[var(--brand-deep)]"
@@ -199,7 +199,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-7xl px-6 py-14 lg:px-10" id="destinations">
+        <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-14 lg:px-10" id="destinations">
           <div className="mb-8">
             <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--brand)]">Browse by area</p>
             <h2 className="mt-2 text-3xl font-semibold text-[var(--brand-deep)]">Show the island the way guests actually shop.</h2>
@@ -217,7 +217,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-7xl px-6 py-14 lg:px-10" id="about-us">
+        <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-14 lg:px-10" id="about-us">
           <div className="grid gap-6 rounded-[32px] border border-[var(--line)] bg-white p-8 shadow-sm lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--brand)]">About us</p>

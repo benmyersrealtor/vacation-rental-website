@@ -6,18 +6,18 @@ export default function PropertiesPage() {
   return (
     <div className="min-h-screen bg-[var(--sand)] text-[var(--ink)]">
       <SiteHeader />
-      <main className="mx-auto max-w-7xl px-6 py-12 lg:px-10">
+      <main className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-12 lg:px-10">
         <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--brand)]">Properties</p>
-            <h1 className="mt-2 text-4xl font-semibold text-[var(--brand-deep)]">Browse vacation rentals</h1>
+            <h1 className="mt-2 text-3xl font-semibold text-[var(--brand-deep)] sm:text-4xl">Browse vacation rentals</h1>
           </div>
           <p className="max-w-2xl text-sm leading-6 text-[var(--muted)]">
             Prototype search results page for Vercel preview. This is where filtered RealTime Rental inventory would land once API integration begins.
           </p>
         </div>
 
-        <div className="mb-8 grid gap-4 rounded-[28px] border border-[var(--line)] bg-white p-6 shadow-sm md:grid-cols-4">
+        <div className="mb-8 grid gap-3 rounded-[24px] border border-[var(--line)] bg-white p-4 shadow-sm sm:rounded-[28px] sm:p-6 md:grid-cols-4 md:gap-4">
           <input className="field" defaultValue="June 20" aria-label="Arrival" />
           <input className="field" defaultValue="June 27" aria-label="Departure" />
           <input className="field" defaultValue="8 guests" aria-label="Guests" />
@@ -25,7 +25,7 @@ export default function PropertiesPage() {
         </div>
 
         <div className="grid gap-6 lg:grid-cols-[0.8fr_1.2fr]">
-          <aside className="rounded-[28px] border border-[var(--line)] bg-white p-6 shadow-sm">
+          <aside className="rounded-[24px] border border-[var(--line)] bg-white p-5 shadow-sm sm:rounded-[28px] sm:p-6">
             <h2 className="text-xl font-semibold text-[var(--brand-deep)]">Filters</h2>
             <div className="mt-5 space-y-4 text-sm text-[var(--muted)]">
               <div>
@@ -50,14 +50,14 @@ export default function PropertiesPage() {
 
           <section className="space-y-5">
             {properties.map((property) => (
-              <article key={property.id} className="grid overflow-hidden rounded-[28px] border border-[var(--line)] bg-white shadow-sm md:grid-cols-[320px_1fr]">
-                <div className="min-h-[240px] bg-cover bg-center" style={{ backgroundImage: `url(${property.image})` }} />
+              <article key={property.id} className="grid overflow-hidden rounded-[24px] border border-[var(--line)] bg-white shadow-sm sm:rounded-[28px] md:grid-cols-[280px_1fr] lg:grid-cols-[320px_1fr]">
+                <div className="min-h-[220px] bg-cover bg-center sm:min-h-[240px]" style={{ backgroundImage: `url(${property.image})` }} />
                 <div className="p-6">
                   <div className="flex flex-wrap items-center justify-between gap-3">
                     <span className="rounded-full bg-[var(--mist)] px-3 py-1 text-xs font-semibold text-[var(--brand)]">{property.tag}</span>
                     <span className="text-sm font-semibold text-[var(--brand-deep)]">From {property.price}/night</span>
                   </div>
-                  <h2 className="mt-3 text-2xl font-semibold text-[var(--brand-deep)]">{property.name}</h2>
+                  <h2 className="mt-3 text-xl font-semibold text-[var(--brand-deep)] sm:text-2xl">{property.name}</h2>
                   <p className="mt-2 text-sm text-[var(--muted)]">{property.location}</p>
                   <p className="mt-4 text-sm leading-6 text-[var(--muted)]">{property.summary}</p>
                   <div className="mt-4 flex flex-wrap gap-2 text-sm text-[var(--muted-dark)]">
@@ -65,7 +65,7 @@ export default function PropertiesPage() {
                     <span className="chip">{property.baths} baths</span>
                     <span className="chip">Sleeps {property.sleeps}</span>
                   </div>
-                  <div className="mt-6 flex flex-wrap gap-3">
+                  <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                     <a href={`/properties/${property.slug}`} className="rounded-2xl bg-[var(--brand)] px-5 py-3 text-sm font-semibold text-white hover:bg-[var(--brand-deep)]">View property</a>
                     <button className="rounded-2xl border border-[var(--line)] px-5 py-3 text-sm font-semibold text-[var(--brand-deep)] hover:bg-[var(--mist)]">Check dates</button>
                   </div>
