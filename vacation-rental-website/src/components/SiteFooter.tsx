@@ -32,8 +32,8 @@ export function SiteFooter() {
           <div className="mt-4 space-y-3 text-sm text-[var(--muted)]">
             <p>Myers Realty, Inc.</p>
             <p>Surf City / Topsail Island, NC</p>
-            <p>(Placeholder) Add office phone</p>
-            <p>(Placeholder) Add booking email</p>
+            <p>(910) 507-1030</p>
+            <p>Vacation@myersrealtync.com</p>
           </div>
         </div>
       </div>
