@@ -36,7 +36,6 @@ export function SiteHeader() {
             >
               Visitors Guide
             </a>
-            <a href="/#why" className="hover:text-[var(--brand)]">Why Book Direct</a>
             <a href="/#about-us" className="hover:text-[var(--brand)]">About Us</a>
           </nav>
 

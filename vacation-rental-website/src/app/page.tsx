@@ -4,12 +4,6 @@ import { properties } from "@/lib/properties";
 
 const featuredProperties = properties.slice(0, 3);
 
-const perks = [
-  "Direct-booking experience connected to RealTime Rental inventory",
-  "Fast property search with filters for beach access, pool, and pet-friendly stays",
-  "Owner-trusted local management with Myers Realty’s existing market presence",
-];
-
 const destinations = [
   {
     name: "Surf City",
@@ -60,12 +54,6 @@ export default function Home() {
                   className="rounded-full bg-white px-6 py-3 text-center text-sm font-semibold text-[var(--brand-deep)] transition hover:bg-[var(--sand)]"
                 >
                   Explore featured homes
-                </a>
-                <a
-                  href="#why"
-                  className="rounded-full border border-white/30 px-6 py-3 text-center text-sm font-semibold text-white transition hover:bg-white/10"
-                >
-                  See booking concept
                 </a>
               </div>
             </div>
@@ -128,22 +116,6 @@ export default function Home() {
                 Prototype note: in production, this search would read from cached property data and check live rates /
                 availability through RealTime Rental before checkout.
               </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-14 lg:px-10" id="why">
-          <div className="grid gap-8 rounded-[32px] border border-[var(--line)] bg-white p-8 shadow-sm lg:grid-cols-[0.9fr_1.1fr]">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--brand)]">Why this direction works</p>
-              <h2 className="mt-3 text-3xl font-semibold text-[var(--brand-deep)]">Built for bookings first, not just brochure pages.</h2>
-            </div>
-            <div className="grid gap-4 sm:grid-cols-3">
-              {perks.map((perk) => (
-                <div key={perk} className="rounded-3xl bg-[var(--mist)] p-5 text-sm leading-6 text-[var(--muted-dark)]">
-                  {perk}
-                </div>
-              ))}
             </div>
           </div>
         </section>
